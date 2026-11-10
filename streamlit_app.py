@@ -16,7 +16,7 @@ def load_model():
     model_path = "best.pt" 
     if not os.path.exists(model_path):
         # Fallback to your original path if you haven't moved it
-        model_path = r"runs\detect\fabric_defect_run\weights\best.pt"
+        model_path = r"best.pt"
     return YOLO(model_path)
 
 try:
