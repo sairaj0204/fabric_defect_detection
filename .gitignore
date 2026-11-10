@@ -1,0 +1,32 @@
+# --- Python & Virtual Environments ---
+yolo_env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints
+
+# --- YOLO & Training Artifacts ---
+runs/
+*.pt
+!best.pt
+yolov8n.pt
+result.jpg
+
+# --- Dataset Folders (Crucial to ignore) ---
+train/
+valid/
+test/
+data.yaml
+README.dataset.txt
+README.roboflow.txt
+
+# --- Gradio & Old Scripts ---
+.gradio/
+app.py
+predict.py
+presentation_demo.py
+presentation/
+
+# --- OS specific files ---
+.DS_Store
+Thumbs.db
